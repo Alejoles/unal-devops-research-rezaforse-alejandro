@@ -3,13 +3,13 @@
 
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  # cloud {
+  #   organization = "DevOpsLearn"
 
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+  #   workspaces {
+  #     name = "unal-devops-research-rezaforse-alejandro"
+  #   }
+  # }
 
   required_providers {
     aws = {
